@@ -1,0 +1,19 @@
+Dans ce composant, mettez en place trois exemples de 
+<!-- liaison. un sur un attribut avec [] -->
+<div>
+    <h2>Liaison attribut </h2>
+    <p  [ngStyle]="{color:couleur}"> ma couleur est rouge</p>
+  </div>
+<!-- un autre sur un evement avec () -->
+<div>
+    <h2>Liaison evenement </h2>
+    <p>{{valeur}}</p>
+    <button (click)="upValeur()" > + </button>
+  </div>
+<!-- interpolation de variable {{ }} -->
+<div>
+    <h2>interpolation de variable </h2>
+   <p>Mon element est : {{ element}}</p>
+  </div>
+
+
